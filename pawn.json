@@ -4,16 +4,16 @@
     "include_path": "src",
     "resources": [
         {
-            "name": "^pawnraknet-(.*)-linux.tar.gz$",
+            "name": "^skis-(.*)-linux.tar.gz$",
             "platform": "linux",
             "archive": true,
-            "plugins": ["skis.so"]
+            "plugins": ["pawnraknet.so"]
         },
         {
-            "name": "^pawnraknet-(.*)-win32.zip$",
+            "name": "^skis-(.*)-win32.zip$",
             "platform": "windows",
             "archive": true,
-            "plugins": ["skis.dll"]
+            "plugins": ["pawnraknet.dll"]
         }
     ],
     "runtime": {
